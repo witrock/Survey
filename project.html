@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <h1 id="title">SURVEY</h1>
+  <p id="description">We'd love to hear from you!</p>
+  <form id="survey-form">
+    <label id="name-label">Name:</label>
+    <label for="name"Name</label>
+    <input id="name" required 
+           placeholder="Enter Your Name"> 
+    <br>
+    <br>
+     <label id="email-label">Email:</label>
+  <!-- `required` and `type="email"` does everything!https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html -->
+  <input
+    required
+    type="email"
+    id="email"
+         
+    placeholder="a@b.com" />
+    
+    <br>
+    <br>
+    
+    <label id="number-label">Age:</label> 
+    <input
+           type="number"
+           min="18"
+           max="99"
+           id="number"
+           
+           placeholder="18-99">
+    <br>
+    <br>
+    <!--https://www.w3schools.com/tags/tag_select.asp -->
+    Tell us your coding skill level:
+    <select id="dropdown">
+      <option value="Select">Select
+      </option>
+      
+      <option value="Basic">Basic
+      </option>
+      
+      <option value="Novice">Novice
+      </option>
+      
+      <option value="Intermediate">Intermediate
+      </option>
+      
+      <option value="Advanced">Advanced
+      </option>
+      
+    </select>
+    <br>
+    <br>
+    
+    How likely are you to sign up for a coding class in the future?
+    <br>
+    <br>    
+    <input type="radio" name="answer" value="mostlikely">Most Likely<br>
+
+    <input type="radio" name="answer" value="maybe">Maybe<br> 
+    
+    <input type="radio" name="answer" value="notlikely">Not Likely<br>
+   <br>
+    <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox-->
+    
+    What would spark your interest in delving into coding professionally (Check all that apply)?:
+    <br>
+    <br>
+    <input type="checkbox" name="choice1" value="grade school">Exposure throughout grade school
+    <br>
+        
+    <input type="checkbox" name="choice2" value="college">Exposure during college
+    <br>
+    
+    
+    <input type="checkbox" name="option3" value="home">Exposure through mentorship.
+    <br>
+  <input type="checkbox" name="option4" value="internship">Exposure through internship opportunities.
+    <br>
+    <br>
+    
+    We value your comments/ suggestions!
+    <br>
+    <!--https://www.w3schools.com/tags/tag_textarea.asp-->
+    <textarea rows="6" cols="40">
+   Share your thoughts with us here...       
+    </textarea>
+    <br>
+    <br>
+    <!--https://www.w3schools.com/html/html_forms.asp-->
+    <input id="submit" type="submit" value="Submit">
+     </form>
+  </body>
+  </html>  
